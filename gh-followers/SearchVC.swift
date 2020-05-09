@@ -18,11 +18,24 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configureUI()
+        createKeyboardDismissTapGesture()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
+    }
+    
+    func createKeyboardDismissTapGesture() {
+        let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func pushFollowerListVC() {
+        let followerListVC = FollowerListVC()
+        followerListVC.username = usernameTextField.text
+        followerListVC.title = usernameTextField.text
+        navigationController?.pushViewController(followerListVC, animated: true)
     }
     
     func configureUI() {
@@ -46,6 +59,7 @@ class SearchVC: UIViewController {
     
     func configureUsernameTextField() {
         view.addSubview(usernameTextField)
+        usernameTextField.delegate = self
         
         NSLayoutConstraint.activate([
             usernameTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 48),
@@ -57,7 +71,7 @@ class SearchVC: UIViewController {
     
     func configureGetFollowersButton() {
         view.addSubview(getFollowersButton)
-        getFollowersButton.translatesAutoresizingMaskIntoConstraints = false
+        getFollowersButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             getFollowersButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
@@ -65,5 +79,12 @@ class SearchVC: UIViewController {
             getFollowersButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             getFollowersButton.heightAnchor.constraint(equalToConstant: 50)
         ])
+    }
+}
+
+extension SearchVC: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        pushFollowerListVC()
+        return true
     }
 }

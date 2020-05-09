@@ -15,6 +15,7 @@
 		F3B500E02458D2F500A9F16B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B500DF2458D2F500A9F16B /* GFTextField.swift */; };
 		F3D65F0E2451026400B45AAC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D65F0D2451026400B45AAC /* SearchVC.swift */; };
 		F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D65F0F2451028A00B45AAC /* FavoritesVC.swift */; };
+		F3DAF1DB24675732008D22AC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1DA24675732008D22AC /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F3B500DF2458D2F500A9F16B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		F3D65F0D2451026400B45AAC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		F3D65F0F2451028A00B45AAC /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		F3DAF1DA24675732008D22AC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,13 @@
 				F33D0E3C244BBEE1009BB356 /* AppDelegate.swift */,
 				F33D0E3E244BBEE1009BB356 /* SceneDelegate.swift */,
 				F3D65F0D2451026400B45AAC /* SearchVC.swift */,
+				F3DAF1DA24675732008D22AC /* FollowerListVC.swift */,
 				F3D65F0F2451028A00B45AAC /* FavoritesVC.swift */,
-				F33D0E45244BBEE4009BB356 /* Assets.xcassets */,
 				F33D0E47244BBEE4009BB356 /* LaunchScreen.storyboard */,
 				F33D0E4A244BBEE4009BB356 /* Info.plist */,
 				F3B500DD2458D01700A9F16B /* GFButton.swift */,
 				F3B500DF2458D2F500A9F16B /* GFTextField.swift */,
+				F33D0E45244BBEE4009BB356 /* Assets.xcassets */,
 			);
 			path = "gh-followers";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */,
 				F3B500DE2458D01700A9F16B /* GFButton.swift in Sources */,
 				F3D65F0E2451026400B45AAC /* SearchVC.swift in Sources */,
+				F3DAF1DB24675732008D22AC /* FollowerListVC.swift in Sources */,
 				F33D0E3D244BBEE1009BB356 /* AppDelegate.swift in Sources */,
 				F33D0E3F244BBEE1009BB356 /* SceneDelegate.swift in Sources */,
 			);
