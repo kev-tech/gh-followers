@@ -10,12 +10,12 @@
 		F33D0E3D244BBEE1009BB356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E3C244BBEE1009BB356 /* AppDelegate.swift */; };
 		F33D0E3F244BBEE1009BB356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E3E244BBEE1009BB356 /* SceneDelegate.swift */; };
 		F33D0E46244BBEE4009BB356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33D0E45244BBEE4009BB356 /* Assets.xcassets */; };
-		F35978722469E576000207A6 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E4A244BBEE4009BB356 /* Info.plist */; };
-		F35978742469E586000207A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F35978732469E586000207A6 /* Default-568h@2x.png */; };
 		F3B500DE2458D01700A9F16B /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B500DD2458D01700A9F16B /* GFButton.swift */; };
 		F3B500E02458D2F500A9F16B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B500DF2458D2F500A9F16B /* GFTextField.swift */; };
 		F3D65F0E2451026400B45AAC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D65F0D2451026400B45AAC /* SearchVC.swift */; };
 		F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D65F0F2451028A00B45AAC /* FavoritesVC.swift */; };
+		F3D971A2246B64A500623FD9 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D971A1246B64A500623FD9 /* Follower.swift */; };
+		F3D971A4246B656800623FD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D971A3246B656800623FD9 /* User.swift */; };
 		F3DAF1DB24675732008D22AC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1DA24675732008D22AC /* FollowerListVC.swift */; };
 		F3DAF1DD24675D34008D22AC /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1DC24675D34008D22AC /* GFTitleLabel.swift */; };
 		F3DAF1DF24675EA9008D22AC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1DE24675EA9008D22AC /* GFBodyLabel.swift */; };
@@ -29,11 +29,12 @@
 		F33D0E3E244BBEE1009BB356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F33D0E45244BBEE4009BB356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F33D0E4A244BBEE4009BB356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F35978732469E586000207A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F3B500DD2458D01700A9F16B /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		F3B500DF2458D2F500A9F16B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		F3D65F0D2451026400B45AAC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		F3D65F0F2451028A00B45AAC /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		F3D971A1246B64A500623FD9 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		F3D971A3246B656800623FD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F3DAF1DA24675732008D22AC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		F3DAF1DC24675D34008D22AC /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		F3DAF1DE24675EA9008D22AC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		F33D0E30244BBEE1009BB356 = {
 			isa = PBXGroup;
 			children = (
-				F35978732469E586000207A6 /* Default-568h@2x.png */,
 				F33D0E3B244BBEE1009BB356 /* gh-followers */,
 				F33D0E3A244BBEE1009BB356 /* Products */,
 			);
@@ -73,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				F359786A2469E3FD000207A6 /* Support */,
+				F3D971A0246B649900623FD9 /* Models */,
 				F35978682469E367000207A6 /* Views */,
 				F35978672469E333000207A6 /* Controllers */,
 				F35978692469E39A000207A6 /* Extensions */,
@@ -119,6 +120,15 @@
 				F33D0E45244BBEE4009BB356 /* Assets.xcassets */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		F3D971A0246B649900623FD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3D971A1246B64A500623FD9 /* Follower.swift */,
+				F3D971A3246B656800623FD9 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F33D0E46244BBEE4009BB356 /* Assets.xcassets in Resources */,
-				F35978742469E586000207A6 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F35978722469E576000207A6 /* Info.plist in Sources */,
+				F3D971A4246B656800623FD9 /* User.swift in Sources */,
 				F3B500E02458D2F500A9F16B /* GFTextField.swift in Sources */,
 				F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */,
 				F3B500DE2458D01700A9F16B /* GFButton.swift in Sources */,
@@ -199,6 +208,7 @@
 				F3D65F0E2451026400B45AAC /* SearchVC.swift in Sources */,
 				F3DAF1E124675F5B008D22AC /* GFAlertVC.swift in Sources */,
 				F3DAF1DF24675EA9008D22AC /* GFBodyLabel.swift in Sources */,
+				F3D971A2246B64A500623FD9 /* Follower.swift in Sources */,
 				F3DAF1DD24675D34008D22AC /* GFTitleLabel.swift in Sources */,
 				F3DAF1DB24675732008D22AC /* FollowerListVC.swift in Sources */,
 				F33D0E3D244BBEE1009BB356 /* AppDelegate.swift in Sources */,
@@ -329,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622VW97L8V;
-				INFOPLIST_FILE = "gh-followers/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/gh-followers/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -348,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622VW97L8V;
-				INFOPLIST_FILE = "gh-followers/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/gh-followers/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
