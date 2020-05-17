@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32F4CC62471DCBD0038440E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F4CC52471DCBD0038440E /* UIHelper.swift */; };
 		F33D0E3D244BBEE1009BB356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E3C244BBEE1009BB356 /* AppDelegate.swift */; };
 		F33D0E3F244BBEE1009BB356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E3E244BBEE1009BB356 /* SceneDelegate.swift */; };
 		F33D0E46244BBEE4009BB356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33D0E45244BBEE4009BB356 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F32F4CC52471DCBD0038440E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		F33D0E39244BBEE1009BB356 /* gh-followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gh-followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33D0E3C244BBEE1009BB356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F33D0E3E244BBEE1009BB356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F3D971A9246B717400623FD9 /* ErrorMessage.swift */,
+				F32F4CC52471DCBD0038440E /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */,
 				F3B500DE2458D01700A9F16B /* GFButton.swift in Sources */,
 				F3DAF1E324676522008D22AC /* UIViewController+Ext.swift in Sources */,
+				F32F4CC62471DCBD0038440E /* UIHelper.swift in Sources */,
 				F3B9A857246C9389000CCBE9 /* GFAvatarImageView.swift in Sources */,
 				F3D65F0E2451026400B45AAC /* SearchVC.swift in Sources */,
 				F3DAF1E124675F5B008D22AC /* GFAlertVC.swift in Sources */,
