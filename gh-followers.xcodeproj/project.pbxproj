@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32A609E247332AF00596212 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A609D247332AF00596212 /* Date+Ext.swift */; };
+		F32A60A0247332E500596212 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A609F247332E500596212 /* String+Ext.swift */; };
+		F32A60A22473408900596212 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A60A12473408900596212 /* PersistenceManager.swift */; };
 		F32F4CC62471DCBD0038440E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F4CC52471DCBD0038440E /* UIHelper.swift */; };
 		F32F4CCE2471EF3D0038440E /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F4CCD2471EF3D0038440E /* GFEmptyStateView.swift */; };
 		F33D0E3D244BBEE1009BB356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D0E3C244BBEE1009BB356 /* AppDelegate.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F32A609D247332AF00596212 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		F32A609F247332E500596212 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F32A60A12473408900596212 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		F32F4CC52471DCBD0038440E /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		F32F4CCD2471EF3D0038440E /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		F33D0E39244BBEE1009BB356 /* gh-followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gh-followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				F3DAF1E224676522008D22AC /* UIViewController+Ext.swift */,
+				F32A609D247332AF00596212 /* Date+Ext.swift */,
+				F32A609F247332E500596212 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				F3D971A6246B690900623FD9 /* NetworkManager.swift */,
+				F32A60A12473408900596212 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -325,6 +334,7 @@
 				F3D971A4246B656800623FD9 /* User.swift in Sources */,
 				F3B500E02458D2F500A9F16B /* GFTextField.swift in Sources */,
 				F3D65F102451028A00B45AAC /* FavoritesVC.swift in Sources */,
+				F32A60A0247332E500596212 /* String+Ext.swift in Sources */,
 				F3B500DE2458D01700A9F16B /* GFButton.swift in Sources */,
 				F3DAF1E324676522008D22AC /* UIViewController+Ext.swift in Sources */,
 				F32F4CC62471DCBD0038440E /* UIHelper.swift in Sources */,
@@ -341,6 +351,8 @@
 				F3DAF1DF24675EA9008D22AC /* GFBodyLabel.swift in Sources */,
 				F3D971A2246B64A500623FD9 /* Follower.swift in Sources */,
 				F3DAF1DD24675D34008D22AC /* GFTitleLabel.swift in Sources */,
+				F32A609E247332AF00596212 /* Date+Ext.swift in Sources */,
+				F32A60A22473408900596212 /* PersistenceManager.swift in Sources */,
 				F3668D5424730CFD00504FBF /* GFSecondaryTitleLabel.swift in Sources */,
 				F32F4CCE2471EF3D0038440E /* GFEmptyStateView.swift in Sources */,
 				F3D971A7246B690900623FD9 /* NetworkManager.swift in Sources */,
