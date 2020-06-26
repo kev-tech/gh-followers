@@ -38,6 +38,7 @@
 		F3DAF1DF24675EA9008D22AC /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1DE24675EA9008D22AC /* GFBodyLabel.swift */; };
 		F3DAF1E124675F5B008D22AC /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1E024675F5B008D22AC /* GFAlertVC.swift */; };
 		F3DAF1E324676522008D22AC /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DAF1E224676522008D22AC /* UIViewController+Ext.swift */; };
+		F3F2B1F12475CE0B0028B82E /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2B1F02475CE0B0028B82E /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		F3DAF1DE24675EA9008D22AC /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		F3DAF1E024675F5B008D22AC /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		F3DAF1E224676522008D22AC /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		F3F2B1F02475CE0B0028B82E /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				F32F4CCD2471EF3D0038440E /* GFEmptyStateView.swift */,
 				F3668D5724731CC700504FBF /* GFItemInfoView.swift */,
+				F3F2B1F02475CE0B0028B82E /* FavoriteCell.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				F3DAF1E124675F5B008D22AC /* GFAlertVC.swift in Sources */,
 				F3668D5E24732DF800504FBF /* GFFollowerItemVC.swift in Sources */,
 				F3668D5824731CC700504FBF /* GFItemInfoView.swift in Sources */,
+				F3F2B1F12475CE0B0028B82E /* FavoriteCell.swift in Sources */,
 				F3B9A855246C9310000CCBE9 /* FollowerCell.swift in Sources */,
 				F3D971AA246B717400623FD9 /* ErrorMessage.swift in Sources */,
 				F3668D5224730C9400504FBF /* GFUserInfoHeaderVC.swift in Sources */,
